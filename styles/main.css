@@ -1,0 +1,107 @@
+body{
+    background-color: #f4f4f4;
+    font-family: 'Amita', cursive;
+}
+
+
+h1{
+    position: absolute;
+    font-family: 'Sacramento', cursive;
+    color: #c0b283;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+     font-size: 50px;
+    margin-top: 2px;
+    font-weight: normal;
+    width:100%;
+}
+
+h1:hover{
+    font-size: 55px;
+}
+
+
+h3{
+    position: absolute;
+    left: 20%;
+    top: 0%;
+    margin:15px;
+    font-weight: 200;
+}
+
+
+
+.nav {
+    position: absolute;
+    background-color:#dcd0c0;
+    left:0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 100px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+li a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 0px 90px;
+  font-size: 30px;
+}
+
+li a:hover {
+  background-color: #c0b283;
+}
+
+
+#cart {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    padding: 10px;
+    padding-right: 20px;
+    width:3%;
+}
+
+
+
+ .line{
+    width: 80%;
+    height: 47px;
+    border-bottom: 2px solid;
+    position: absolute;
+    color: #c0b283;
+    left: 250px;
+    top: 5px;
+}
+
+
+button {
+    background-color: #c0b283;
+    color: black;
+    text-align: center;
+    font-family: 'Amita', cursive;
+}
+
+button:hover{
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+}

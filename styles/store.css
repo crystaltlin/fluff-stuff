@@ -1,0 +1,41 @@
+
+.grid-container {
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  left: 25px;
+  right: 50px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.grid-item {
+  background-color: white;
+  color: black;
+  border: 2px solid #c0b283;
+  font-size: 30px;
+  text-align: left;
+  text-indent: 15px;
+}
+
+.grid-item:hover{
+  border: 10px solid #c0b283;
+}
+
+.grid-item img{
+    text-decoration: none;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    padding-left: 150px;
+}
+
+#round-pillow img{
+    padding-left: 130px;
+}
+
+a {
+    text-decoration: none;
+}
