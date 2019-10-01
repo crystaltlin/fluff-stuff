@@ -16,11 +16,13 @@
 </head>
 
 <body>
-  <script src="main.js"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/product.js"></script>
   <div class="top">
     <a href="index.html"><h1>Fluff Stuff</h1></a>
     <h3>We turn any room COZY!</h3>
     <img id="cart" src=images/cart.png>
+    <p id="cart_item_number">0</p>
     <div class="line"></div>
   <div class="nav">
     <ul>
@@ -40,32 +42,33 @@
   </div>
 
   <div class="split right">
-    <label for="color">Color</label>
-    <select id="color">
-      <option value="After School Special">After School Special</option>
-      <option value="Morning Haze">Morning Haze</option>
-      <option value="Cozy Denim">Cozy Denim</option>
-      <option value="Rainy Day">Rainy Day</option>
-    </select>
-
+    
     <label for="filling">Filling</label>
     <select id="filling">
-      <option value="Duck Down">Duck Down</option>
-      <option value="Memory Foam">Memory Foam</option>
-      <option value="Hyperallergenic Poly-Blend">Hyperallergenic Poly-Blend</option>
+      <option value="Duck Down">Duck Down ($24.99)</option>
+      <option value="Memory Foam">Memory Foam ($21.99)</option>
+      <option value="Hyperallergenic Poly-Blend">Hyperallergenic Poly-Blend ($19.99)</option>
+    </select>
+
+  <label for="color">Color</label>
+      <select id="color">
+      <option value="After School Special">After School Special (+$0.00)</option>
+      <option value="Morning Haze">Morning Haze (+$1.00)</option>
+      <option value="Cozy Denim">Cozy Denim (+$2.00)</option>
+      <option value="Rainy Day">Rainy Day (+$1.00)</option>
     </select>
 
     <label for="amount">Number</label>
     <select id="amount">
-      <option value="one">1</option>
-      <option value="two">2</option>
-      <option value="three">3</option>
-      <option value="four">4</option>
-      <option value="five">5</option>
+      <option value=1>1</option>
+      <option value=2>2</option>
+      <option value=3>3</option>
+      <option value=4>4</option>
+      <option value=5>5</option>
      </select>
 
-     <h2 id="price">$19.99</p>
-     <button type="button">ADD TO CART</button>
+     <h2 id="price">$24.99</h2>
+     <button type="button" id="cart_button">ADD TO CART</button>
   </div>
 
 
