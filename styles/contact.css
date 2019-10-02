@@ -1,0 +1,52 @@
+.split {
+  height: 80%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Control the left side */
+.left {
+  top:50px;
+  left: 0px;
+}
+
+/* Control the right side */
+.right {
+  top: 50px;
+  right: 0px;
+}
+
+#map {
+  position: absolute;
+  width: 37vw;
+  top: 15vh;
+  left: 10vw;
+}
+
+#store-info{
+  position: absolute;
+  top: 15vh;
+  width: 50vw;
+  left: 10vw;
+}
+
+#customer-service {
+  position: absolute;
+  top: 45vh;
+  width:auto;
+  left: 10vw;
+}
+
+
+
+
+
+
+
+
+

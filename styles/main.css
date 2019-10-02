@@ -24,7 +24,7 @@ h1:hover{
 }
 
 
-h3{
+#caption {
     position: absolute;
     left: 20%;
     top: 0%;
@@ -102,6 +102,6 @@ button:hover{
     border: 1px solid black;
 }
 
-a{
+a {
     text-decoration: none;
 }
