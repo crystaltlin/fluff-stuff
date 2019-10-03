@@ -1,29 +1,30 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-
   <title>Fluff Stuff</title>
   <meta name="description" content="Fluff Stuff">
   <meta name="author" content="Crystal Lin">
-
   <link rel="stylesheet" href="styles/main.css?v=1.0">
   <link rel="stylesheet" href="styles/product.css?v=1.0">
   <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amita&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
   <script src="scripts/main.js"></script>
   <script src="scripts/product.js"></script>
+  <!-- top bar -->
   <div class="top">
     <a href="index.html"><h1>Fluff Stuff</h1></a>
     <h3 id="caption">We turn any room COZY!</h3>
     <img id="cart" src=images/cart.png>
     <p id="cart_item_number">0</p>
     <div class="line"></div>
+  </div>
+  <!-- nav bar -->
   <div class="nav">
     <ul>
       <li><a href="story.html">Story</a></li>
@@ -32,32 +33,33 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </div>
-
+  <!-- left image -->
   <div class="split left">
     <a href="store.html" class="previous">&#8592;</a>
     <div class="grid-container">
       <div class="grid-item">
         <img src="images/product.png">
       </div>
+    </div>
   </div>
-
+  <!-- right content -->
   <div class="split right">
-    
+    <!-- filling -->
     <label for="filling">Filling</label>
     <select id="filling">
       <option value="Duck Down">Duck Down ($24.99)</option>
       <option value="Memory Foam">Memory Foam ($21.99)</option>
       <option value="Hyperallergenic Poly-Blend">Hyperallergenic Poly-Blend ($19.99)</option>
     </select>
-
-  <label for="color">Color</label>
-      <select id="color">
+    <!-- color -->
+    <label for="color">Color</label>
+    <select id="color">
       <option value="After School Special">After School Special (+$0.00)</option>
       <option value="Morning Haze">Morning Haze (+$1.00)</option>
       <option value="Cozy Denim">Cozy Denim (+$2.00)</option>
       <option value="Rainy Day">Rainy Day (+$1.00)</option>
     </select>
-
+    <!-- amount -->
     <label for="amount">Number</label>
     <select id="amount">
       <option value=1>1</option>
@@ -65,13 +67,11 @@
       <option value=3>3</option>
       <option value=4>4</option>
       <option value=5>5</option>
-     </select>
-
-     <h2 id="price">$24.99</h2>
-     <button type="button" id="cart_button">ADD TO CART</button>
+    </select>
+    <!-- price and button -->
+    <h2 id="price">$24.99</h2>
+    <button type="button" id="cart_button">ADD TO CART</button>
   </div>
-
-
-  
 </body>
+
 </html>
